@@ -3,11 +3,16 @@ html, body {
   font-family: 'Open Sans', sans-serif
 }
 
+
+
 body {
   display: flex;
   align-items: center;
   justify-content: flex-center;
   flex-direction: column;
+  background: url(images/angrylands.jpg);
+  background-size: cover
+
 }
 
 #message, #notes {
@@ -17,7 +22,9 @@ body {
 }
 
 #message {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  color: gold;
+
 }
 
 .board {
@@ -44,17 +51,17 @@ body {
 }
 
 div.mine, div.mine:hover {
-  background: no-repeat center/60% url("images/bomb.svg") crimson;
+  background: no-repeat center/60% url("images/PinClipart.com_movie-clipart-free_1464072.png") crimson;
 }
 
 div.hidden {
-  background: #eee;
+  background: #87ddeb;
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: rgb(157, 190, 95);
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/60% url("images/pngguru.com-id-ncvqa.png") deepskyblue;
 }
